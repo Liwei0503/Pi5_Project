@@ -8,7 +8,7 @@ python3 -m venv myenv
 source myenv/bin/activate
 # (4) 使用 pip 安裝 pyautogui：
 #     這樣安裝的 pyautogui 只會在這個虛擬環境內可用，不會影響系統全域套件。
-pip install pyautogui
+pip install pyautogui Pillow
 # (5) 測試安裝是否成功：
 python -c "import pyautogui; print(pyautogui)"
 
